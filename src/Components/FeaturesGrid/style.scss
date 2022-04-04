@@ -1,0 +1,13 @@
+.item-feature-name {
+  font-weight: 400;
+  &::after {
+    content: ":";
+  }
+}
+
+.item-feature-value {
+  font-weight: 600;
+  &::before {
+    content: " ";
+  }
+}

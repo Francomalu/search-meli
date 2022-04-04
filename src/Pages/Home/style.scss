@@ -1,0 +1,38 @@
+.background {
+    background-color: #FFE600;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navigator {
+    padding-left: 74px;
+    li {
+        list-style: none;
+        padding: 2px;
+        background-color: honeydew;
+        margin-bottom: 2px;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .background {
+        flex-direction: column;
+        align-items: center;
+        header{
+            margin-top:20px;
+            img{
+                height:100px;
+            }
+        }
+    }
+    .navigator {
+        padding:0;
+        margin-top:20px;
+    }
+}
